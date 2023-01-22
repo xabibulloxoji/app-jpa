@@ -12,7 +12,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Student {
+public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,6 +22,6 @@ public class Student {
     private String username;
 
     @Column(nullable = false, unique = true)
-    private  String phoneNumber;
+    private String phoneNumber;
 
 }
